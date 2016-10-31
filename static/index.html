@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Line Chart</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<div class="wrap">
+	<script src="http://d3js.org/d3.v3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<div style="width: 100%; display: table; overflow: hidden; vertical-align:center;">
+    <div style="display: table-row">
+      <div id="graph" style="width: 50%; display: table-cell;"></div>
+      <div id="userField" style="display: table-cell; margin-top: -4px;">
+				<div id="area">Spray Area: 0 mm by 0 mm</div>
+				<form name="myform">
+					<label>Spacing (mm):</label>
+					<input type="text" id="spacing" placeholder="Spacing" /><br/>
+					<label>Passes:</label>
+					<input type="text" id="passes" placeholder="Number of Passes" /><br/>
+					<label>Speed (mm/min):</label>
+
+					<input type="text" id="speed" placeholder="Speed (Default: 10000)" /><br/>
+					<button id="generate" class="myButton" type="button">Download</button>
+				</form>
+			</div>
+    </div>
+	</div>
+
+
+	<script src="js/custom.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "gcodegenerator",
+  "version": "1.0.0",
+	"dependencies": {
+		"express":"^4.13.3",
+		"body-parser":"^1.13.3",
+		"dateformat":"*"
+	},
+  "description": "Creates gcode for the automated spray in the Arias lab.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik Gopalan",
+  "license": "UNLICENSED"
+}
